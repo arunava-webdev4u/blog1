@@ -1,0 +1,96 @@
+body{
+    background: #adadd3;
+    padding: 20px;
+}
+
+header{
+    background: #66ff8c;
+    color: #074d01;
+    height: fit-content;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    height: fit-content;
+    width: 80%;
+    border-radius: 20px;
+    background: #e4e265;
+    padding: 10px;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+    /*text-align: center;*/
+    position: relative;
+    left: 135px;
+}
+section{
+    /*height: fit-content;
+    width: auto;*/
+    /*border-radius: 20px;*/
+    /*background: #e4e265;*/
+    padding: 25px;
+}
+h3{
+    font-size: 30px;
+}
+
+
+
+
+
+/*---------------------------------------------NEXT PATE BUTTON----------------------------------------------------*/
+article.nxtpage{
+    /*display: inline-block;*/
+    position: relative;
+    left: 670px;
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 25px;
+    background: #ffffff;
+}
+article.nxtpage:hover{
+    background: #236812;
+    color: #ffffff;
+    padding: 15px;
+    margin: 3px;
+}
+a.nxtpagelnk{
+    font-size: 25px;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+a.nxtpagelnk:hover{
+    background: #236812;
+    color: #ffffff;
+}
+/*---------------------------------------------------FOOTER SECTION----------------------------------------------------------------*/
+footer{
+    display: inline-block;
+    float: right;
+    height: 150px;
+    width: 84%;
+    border-radius: 20px;
+    background: #8c32ec;
+}
+footer>.footer{
+    padding-left: 10px;
+}
+/*--------------------------------------------------ARTICLE ON LEFT SIDE OF FOOTER-----------------------------------------------*/
+article.btmimg{
+    display: inline-block;
+    height: 150px;
+    width: fit-content;
+    border-radius: 20px;
+    background: #8c32ec;
+}
+.ftimg1{
+    /*display: inline-block;*/
+    /*float: right;*/
+    height: 100px;
+    width: 80px;
+    padding: 15px;
+    padding-top: 25px;
+    align-self: center;
+}
