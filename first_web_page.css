@@ -1,41 +1,140 @@
 body{
-    background: #adadd3;
+    background: #bebeda;
     padding: 20px;
 }
 
 header{
-    background: #66ff8c;
-    color: #074d01;
+    background-color: #8c32ec;
+    /*background-image: url(../req_files/images/headimg1.jpg);*/
+    color: #ffffff;
     height: fit-content;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     text-align: center;
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive,Arial, Helvetica, sans-serif;
 }
+.head{
+    border-radius: 50px;
+    background-image: url(headimg1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*--------------------------------GENERAL NAV, HEADING AND SECION--------------------------------------------------*/
 nav{
-    height: fit-content;
-    width: 80%;
-    border-radius: 20px;
+    /*height: fit-content;
+    width: 80%;*/
+    /*border-radius: 20px;
     background: #e4e265;
     padding: 10px;
-    font-family: cursive,Arial, Helvetica, sans-serif;
+    font-family: cursive,Arial, Helvetica, sans-serif;*/
     /*text-align: center;*/
     position: relative;
-    left: 135px;
-}
-section{
-    /*height: fit-content;
-    width: auto;*/
-    /*border-radius: 20px;*/
-    /*background: #e4e265;*/
-    padding: 25px;
+    left: 130px;
 }
 h3{
     font-size: 30px;
+    /*padding-left: 80px;*/
 }
-
-
-
+section{
+    height: fit-content;
+    width: 80%;
+    /*border-radius: 20px;*/
+    background: #e4e265;
+    padding: 20px;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+}
+/*---------------------------------------------SECTION 0-----------------------------------------------------------*/
+section.sec0{
+    border-radius: 50px 50px 0 0;
+}
+/*-----------------------------------------------SECTION 1---------------------------------------------------------*/
+section.sec1{
+    display: inline-block;
+}
+p.sec1{
+    display: inline-block;
+    float: left;
+    width: 65%;
+    text-align: justify;
+}
+img.sec1{
+    height: 250px;
+    width: 350px;
+    display: inline-block;
+    float: right;
+    padding-right: 30px;
+}
+/*-----------------------------------------------SECTION 2---------------------------------------------------------*/
+section.sec2{
+    display: inline-block;
+}
+p.sec2{
+    display: inline-block;
+    float: right;
+    width: 65%;
+    text-align: justify;
+}
+img.sec2{
+    height: 250px;
+    width: 350px;
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+/*-----------------------------------------------SECTION 3---------------------------------------------------------*/
+section.sec3{
+    display: inline-block;
+}
+p.sec3{
+    display: inline-block;
+    float: left;
+    width: 65%;
+    text-align: justify;
+}
+img.sec3{
+    height: 250px;
+    width: 350px;
+    display: inline-block;
+    float: right;
+    padding-right: 30px;
+}
+/*-----------------------------------------------SECTION 4---------------------------------------------------------*/
+section.sec4{
+    display: inline-block;
+}
+p.sec4{
+    display: inline-block;
+    float: right;
+    width: 65%;
+    text-align: justify;
+}
+img.sec4{
+    height: 250px;
+    width: 350px;
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+/*-----------------------------------------------SECTION 5---------------------------------------------------------*/
+section.sec5{
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+p.sec5{
+    display: inline-block;
+    float: left;
+    width: 65%;
+    text-align: justify;
+}
+img.sec5{
+    height: 250px;
+    width: 350px;
+    display: inline-block;
+    float: right;
+    padding-right: 30px;
+}
 
 
 /*---------------------------------------------NEXT PATE BUTTON----------------------------------------------------*/
@@ -76,6 +175,19 @@ footer{
 }
 footer>.footer{
     padding-left: 10px;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+a.footer{
+    /*text-decoration-color: ;*/
+    color: #ffffff;
+}
+p.xfooter{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a0a097;
+    padding-right: 15px;
+    font-size: 15px;
+    float: right;
 }
 /*--------------------------------------------------ARTICLE ON LEFT SIDE OF FOOTER-----------------------------------------------*/
 article.btmimg{
